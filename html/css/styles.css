@@ -9,7 +9,7 @@ body{ font-family: 'Roboto', sans-serif;}
 .content{ background-color:#fff;}
 a,a:active,a:hover{ border:none; outline:none;}
 .padding_top_bottom{ padding:10px 0;display: inline-block;}
-.padding_top{ padding:30px 0 0 0;display: inline-block;}
+.padding_top{ padding-top:30px;display: inline-block;}
 .no_padding{ padding:0px;}
 /*universal custon padding over*/
 
@@ -26,7 +26,9 @@ a,a:active,a:hover{ border:none; outline:none;}
 /*carousel start*/
 .carousel{ padding-bottom:30px;}
 .carousel-control.left,.carousel-control.right{ background-image:none;}
-.carousel-indicators li{-webkit-transition: all 0.5s ease-in;-moz-transition: all 0.5s ease-in;-o-transition: all 0.5s ease-in;-ms-transition: all 0.5s ease-in;transition: all 0.5s ease-in;}
+.carousel-indicators li{-webkit-transition: all 0.5s ease-in;-moz-transition: all 0.5s ease-in;-o-transition: all 0.5s ease-in;-ms-transition: all 0.5s ease-in;transition: all 0.5s ease-in; width:20px; height:20px;width:20px; height:20px; margin-right:5px !important;}
+.carousel-indicators li:last-child{ margin-right:0px;}
+.carousel-indicators li.active{width:20px; height:20px;}
 .carousel-indicators li:hover {transform: scale(1.2); -webkit-transition: all 0.5s ease-in;-moz-transition: all 0.5s ease-in;-o-transition: all 0.5s ease-in;-ms-transition: all 0.5s ease-in;transition: all 0.5s ease-in; box-shadow:0px 0px 3px 1px #17d2d7;}
 /*carousel end*/
 
@@ -56,6 +58,7 @@ p+hr{ border:2px #17d2d7 solid;margin-bottom:20px; margin-top:0px;}
   background: linear-gradient(to right, rgba(0,0,0,0.98) 100%, rgba(0,0,0,NaN) 100%);
   filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#000000', endColorstr='#000000', GradientType=1 );
  -webkit-transition: all 0.5s ease-in;-moz-transition: all 0.5s ease-in;-o-transition: all 0.5s ease-in;-ms-transition: all 0.5s ease-in;transition: all 0.5s ease-in;
+ border-bottom:3px #17d2d7 solid;
 }
 .grid_mouse:hover .grid_hover{ left:0;} 
 .grid_mouse img{ -webkit-transition: all 0.5s ease-in;-moz-transition: all 0.5s ease-in;-o-transition: all 0.5s ease-in;-ms-transition: all 0.5s ease-in;transition: all 0.5s ease-in;}
