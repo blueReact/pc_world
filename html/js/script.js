@@ -31,7 +31,7 @@ $(document).ready(function() {
 		$('ul li.active').removeClass('active');
     	$(this).closest('li').addClass('active');
   	});
-		
+	
 });
 /*nav bar*/
 $(document).scroll(function() {    
