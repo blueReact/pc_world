@@ -31,6 +31,9 @@ $(document).ready(function() {
 		$('ul li.active').removeClass('active');
     	$(this).closest('li').addClass('active');
   	});
+	$( ".newsletter-wrapper .input-box" ).click(function() {
+		$('.button').addClass('active');    
+  	});
 	
 });
 /*nav bar*/
