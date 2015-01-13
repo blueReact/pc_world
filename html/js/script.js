@@ -35,6 +35,9 @@ $(document).ready(function() {
 		$('.button').addClass('active');    
   	});
 	
+		
+	
+	
 });
 /*nav bar*/
 $(document).scroll(function() {    
