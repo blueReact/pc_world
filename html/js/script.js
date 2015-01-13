@@ -35,7 +35,7 @@ $(document).ready(function() {
 		$('.button').removeClass('inactive').addClass('active');    
   	});
 	$( ".newsletter-wrapper .input-box" ).mouseout(function() {
-		$('.button').removeClass('active').addClass('inactive');;    
+		$('.button').removeClass('active').addClass('inactive');    
   	});
 	
 });
